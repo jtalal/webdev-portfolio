@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'disguise';
+}
+
+body {
+	background-image: url('../img/final.jpg')
+
+}
+
+@font-face {
+	font-family: 'disguise';
+	src: url('../fonts/Blessing in Disguise Regular.otf');
+}
+
+.container {
+	width: 90%;
+	height: auto;
+	border-top: 30px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background-color: lavender;
+	border-radius: 10px;
+	background-image: url('../img/pink.jpg');
+	box-shadow: 10px 10px 10px #000;
+
+}
+
+.navbar-right {
+	font-size: 20px;
+	color: white;
+}
+
+.container1 {
+	width: 200px;
+	height: 200px;
+	padding: 20px;
+
+}
+
+img {
+	border-radius: 50%;
+	border: 3px solid lavender;
+	text-align: center;
+}
