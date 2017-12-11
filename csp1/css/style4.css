@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'alba';
+	src: url('../fonts/Alba.TTF');
+}
+
+
+body {
+	background-image: url('../img/turntable.jpg');
+	background-attachment: fixed;
+}
+
+.container {
+	width: 95%;
+	margin: 0 auto;
+	background-color: gray;
+	opacity: 0.9;
+	color: white;
+
+}
+
+.nav>li>a>img {
+	width: 200px;
+	height: 25px;
+}
+
+.form-control {
+	height: 25px;
+	border-radius: 0;
+}
+
+.btn {
+	padding: 5px 15px;
+	border-radius: 10px;
+}
+
+.navbar {
+	border: 1px solid yellow;
+}
+
+
+/*.row > .col-sm-12 {
+	background-color: gray;
+	width: auto;
+	height: auto;
+	color: white;
+	opacity: 0.9;
+}*/
+
+.col-sm-12 > h1 {
+/*	margin-bottom: 20px;
+*/	font-family: 'alba';
+	color: yellow;
+}
+
+.img-responsive {
+	width: 350px;
+	height: 300px;
+}
+
+.comment {
+	color: blue;
+}
+
+.strong {
+	text-align: center;
+	color: yellow;
+	font-size: 18px;
+	
+}
+
+
+.footer {
+	width: 100%;
+	height: auto;
+	background-color: #000;
+	bottom: 0;
+}
+
+.footer > p {
+	font-family: 'alba';
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+}
+
+.footer > .col, .social {
+	text-align: center;
+	margin: 3px;
+}
+
+.social > a > img {
+	width: 50px;
+	height: 50px;
+}
+
+.col > a {
+	font-weight: bold;
+	font-size: 16px;
+	color: white;
+	letter-spacing: 2px;
+	margin-bottom: 100px;	
+}
+
+
+
+.copyright {
+	font-family: 'alba';
+	color: #fff;
+}
+
+nav {
+	text-align: center;
+}
+
+.final {
+	color: #fff;
+	font-size: 10px;
+}

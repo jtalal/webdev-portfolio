@@ -1,0 +1,299 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial;
+}
+
+@font-face {
+	font-family: 'alba';
+	src: url('../fonts/Alba.TTF');
+}
+
+body {
+	background-image: url('../img/souldance.jpg');
+	background-attachment: fixed;
+	opacity: 0.9;
+
+}
+
+embed {
+
+}
+
+.container-fluid {
+	width: 95%;
+	height: auto;
+	margin: 0 auto;
+	background-color: #000;
+}
+
+.header {
+	min-height: 480px;
+}
+
+.header > .col {
+	width: 90%;
+	padding: 10px;
+	margin: 0 auto;
+
+}
+
+
+.col > h1,h3,h4,h5 {
+	text-align: center;
+	letter-spacing: 2px;
+
+
+}
+
+.col > h3 {
+	font-size: 18px;
+	font-family: Arial;
+	text-decoration: underline;
+	margin-bottom: 150px;
+	color: white;
+}
+
+.col > h1 {
+	font-family: 'alba';
+	font-size: 40px;
+	margin-bottom: 10px;
+	margin-top: 100px;
+	color: yellow;
+	font-weight: bolder;
+}
+
+.col > h4, h5 {
+	color: white;
+	font-family: serif;
+	font-style: italic;
+}
+
+.col > h5 {
+	margin-bottom: 70px;
+	text-indent: 60px;
+}
+
+.header > .nav {
+	width: 90%;
+	padding: 30px 70px 30px 70px;
+	margin: 0 auto;
+	text-align: center;			
+}
+
+
+
+.nav > button > a {
+	font-weight: bold;
+	font-family: 'alba';
+	font-size: 24px;
+	color: white;
+	letter-spacing: 2px;
+
+}
+
+.navbar {
+	border: 1px solid yellow;
+}
+
+.form-control {
+	height: 25px;
+	border-radius: 0;
+}
+
+.btn {
+	padding: 5px 15px;
+	border-radius: 10px;
+}
+
+.main {
+	background-color: #ff6;
+	min-height: 600px;
+	clear: both;
+}
+
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*.left {
+	min-height: 600px;
+	background-color: #ff6;
+	padding: 10px;
+}*/
+
+.left > img {
+/*	margin-left: 40px;
+*/	margin-top: 20px;
+}
+
+.img-responsive {
+	margin-top: 20px;
+	height: 380px;
+	width: 400px;
+}
+
+.sidebar {
+	height: 300px;
+	background-color: #CD853F;
+	padding: 10px;
+	border: 3px solid black;
+	border-collapse: collapse;
+}
+
+.member {
+	height: 300px;
+	background-color: lightsalmon;
+	padding: 10px;
+	border: 3px solid black;
+	border-collapse: collapse;
+}
+
+.member > ul {
+	font-size: 12px;
+	margin-left: 10px;
+}
+
+
+/*.column1 {
+	width: 206px;
+	height: auto;
+	margin-top: 40px;
+	margin-left: 40px;
+	background-color: white;
+	border: 3px solid white;
+	float: left;
+	position: relative;
+}*/
+
+
+.text1 {
+/*	width: 310px;
+*/	height: auto;
+	float: left;
+	margin-top: 10px;
+	/*margin-left: 10px;
+	margin-right: 20px;*/
+
+}
+
+.text1 > h2 {
+	margin-bottom: 40px;
+	font-size: 28px;
+	font-family: 'alba';
+}
+
+.text1 > p {
+	text-indent: 30px;
+	margin-bottom: 10px;
+	font-family: Arial;
+}
+
+.text1 > a {
+	font-size: 12px;
+	margin-left: 170px;
+}
+
+
+.article {
+	background-color: #FF4500;
+	border: 3px solid black;
+	height: 240px;
+	padding: 10px;
+}
+
+.footer > p {
+	font-family: 'alba';
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+}
+
+.footer > .col, .social {
+	text-align: center;
+	margin: 3px;
+}
+
+.social > a > img {
+	width: 50px;
+	height: 50px;
+}
+
+.col > a {
+	font-weight: bold;
+	font-size: 16px;
+	color: white;
+	letter-spacing: 2px;
+	margin-bottom: 100px;	
+}
+
+.thumbnails > h3 {
+	font-family: 'alba';
+}
+
+
+
+.copyright {
+	font-family: 'alba';
+	color: #fff;
+}
+
+.sidebar > h3 {
+	margin-top: -5px;
+	text-align: left;
+
+}
+
+.sidebar > ul > li {
+	margin-left: 10px;
+}
+
+.sidebar > ul > li > a {
+	color: #fff;
+}
+
+.member > h3 {
+	margin-top: -5px;
+	text-align: left;
+}
+
+.thumbnails > h3 {
+	text-align: left;
+	color: white;
+	text-indent: 10px;
+}
+
+.thumbnails > .article > img {
+	width: 100px;
+	height: 100px;
+	float: left;
+	position: relative;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.thumbnails > .article > h5 {
+	font-size: 17px;
+	text-align: left;
+}
+
+.thumbnails > .article > button {
+	float: right;
+	bottom: 0 auto;
+	border-radius: 5px;
+	padding: 2px;
+}
+
+.copyright {
+	font-family: 'alba';
+	color: #fff;
+}
+
+.final {
+	color: #fff;
+	font-size: 10px;
+}
